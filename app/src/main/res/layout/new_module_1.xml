@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textViewLC_Title1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="5dp"
+            android:text="মডিউল ১ঃ আনন্দ স্কুলের সার্বিক তথ্য"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_margin="10dp"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/textViewLC_Title1LC_Title2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="5dp"
+            android:text="১. আনন্দ স্কুল প্রতিষ্ঠার সময়কাল:"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="datetime|date"
+            android:paddingStart="5dp"/>
+        <TextView
+            android:id="@+id/textViewLC_Title3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="5dp"
+            android:text="২. আনন্দ স্কুলের ঠিকানা (পূর্ববর্তী ঠিকানা পরিবর্তন হয়ে থাকলে):"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapWords"
+                    android:hint="বাড়ি"
+                    android:textSize="15dp"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="গ্রাম"
+                    android:textSize="15dp"
+                    android:inputType="textCapWords"
+
+                    />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="ইউনিয়ন"
+                    android:textSize="15dp"
+                    android:inputType="textCapWords"
+
+                    />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewLC_Title11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="5dp"
+            android:text="৩. পরিদর্শনের সময় স্কুলটিতে ক্লাশ চালু আছে কি না? :"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutLCItem7_0_1tem7_0_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/spinnerLCItem7"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:clickable="true"
+                android:entries="@array/spinnerLCItem7"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewLC_Title2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="5dp"
+            android:text="৪.যদি না হয়, তবে স্কুল বন্ধের কারন কি??:"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutLCItem7_0_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/spinnerLCItem8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:clickable="true"
+                android:entries="@array/close_reason3"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:hint="অন্যান্য হলে কারন উল্লেখ করুন"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="5dp"
+            android:text="৫.শ্রেণী কক্ষে সংরক্ষিত হাজিরা খাতা অনুযায়ী বিগত সেমিস্টারের মোট স্কুল দিবস :"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:hint="স্কুল দিবস উল্লেখ করুন"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="5dp"
+            android:text="৬. আনন্দ স্কুলের সোনালী ব্যাংকের হিসাব নং :"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="189dp"
+            android:layout_height="40dp"
+            android:hint="হিসাব নং ইনপুট করুন"
+            android:inputType="number"
+            android:maxLength="7"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="5dp"
+            android:text="৭. আনন্দ স্কুল ইনিশিয়াল গ্র্যান্ট পেয়েছে কি? :"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Spinner
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:clickable="true"
+                android:entries="@array/spinnerLCItem8"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="5dp"
+            android:text="৮. পরিদর্শনের দিন উপস্থিত শিক্ষার্থী সংখ্যা :"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="মোট শিক্ষার্থী"
+                    android:inputType="number"
+                    android:textSize="15dp"
+                    android:maxLength="2"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="বালক"
+                    android:textSize="15dp"
+                    android:inputType="number"
+                    android:maxLength="2"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="বালিকা"
+                    android:textSize="15dp"
+                    android:inputType="number"
+                    android:maxLength="2"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="5dp"
+            android:text="9. এলসি প্রোফাইলের সাথে কত জন শিক্ষার্থীর মিল আছে? :"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="139dp"
+            android:layout_height="40dp"
+            android:hint="সংখ্যা ইনপুট করুন"
+            android:inputType="number"
+            android:maxLength="2"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="5dp"
+            android:text="১০. শ্রেণীকক্ষে সংরক্ষিত হাজিরা খাতা অনুযায়ী শিক্ষার্থী সংখ্যা :"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="139dp"
+                android:layout_height="40dp"
+                android:hint="সংখ্যা ইনপুট করুন"
+                android:inputType="number"
+                android:maxLength="2"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="5dp"
+            android:text="১১. প্রতিস্থাপিত (এলসি প্রোফাইল-এর ছবির সাথে মিল নাই এমন) শিক্ষার্থীর সংখ্যা:"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="139dp"
+                android:layout_height="40dp"
+                android:hint="সংখ্যা ইনপুট করুন"
+                android:inputType="number"
+                android:maxLength="2"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="5dp"
+            android:text="১২.  ক: আনন্দ স্কুল পরিদর্শন রেজিস্টার অনুযায়ী সর্বশেষ পরিদর্শনকারী মনিটরিং অফিসারের পরিদর্শনের তারিখ :"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="পরিদর্শনের তারিখ"
+            android:textSize="15dp"
+            android:inputType="datetime|date"
+            android:paddingStart="5dp"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:paddingBottom="5dp"
+            android:text="       খ: আনন্দ স্কুল পরিদর্শন রেজিস্টার অনুযায়ী সর্বশেষ পরিদর্শনকারী মনিটরিং অফিসারের নাম :"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="নাম ইনপুট করুন"
+            android:inputType="textCapWords"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

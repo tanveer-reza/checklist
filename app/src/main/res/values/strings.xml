@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">1st Application</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="shift">
+        <item>মাঝ রাত</item>
+        <item>সকাল</item>
+        <item>বিকাল</item>
+        <item>সন্ধ্যা</item>
+        <item>দুপুর</item>
+        <item>রাত</item>
+        <item>শেষ রাত</item>
+    </string-array>
+
+    <string-array name="state_of_action">
+        <item>খোলা</item>
+        <item>বন্ধ</item>
+        <item>স্থায়ীভাবে বন্ধ</item>
+    </string-array>
+
+    <string-array name="close_reason">
+        <item>উপস্থিত</item>
+        <item>অনুপস্থিত</item>
+    </string-array>
+
+    <string-array name="close_reason2">
+        <item>উপস্থিত</item>
+        <item>অনুপস্থিত</item>
+    </string-array>
+
+    <string-array name="organization">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+
+    <string-array name="designation">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+
+    <string-array name="spinnerLCItem7">
+        <item>-----</item>
+        <item>হ্যাঁ</item>
+        <item>না</item>
+    </string-array>
+
+    <string-array name="close_reason3">
+    <item>-----</item>
+    <item>শিক্ষক অনুপস্থিত</item>
+    <item>শিক্ষার্থী উপস্থিতি সন্তোষজনক নয়</item>
+        <item>স্থায়ীভাবে বন্ধ</item>
+        <item>অন্যান্য</item>
+    </string-array>
+
+    <string-array name="spinnerLCItem8">
+        <item>-----</item>
+        <item>হ্যাঁ</item>
+        <item>না</item>
+    </string-array>
+
+    <string name="text_registration_user_name">User Name</string>
+    <string name="text_registration_first_name">First Name</string>
+    <string name="text_registration_last_name">Last Name</string>
+    <string name="text_organization">Organization:</string>
+    <string name="text_designation">Designation:</string>
+    <string name="text_registration_employee_id">Employee ID</string>
+    <string name="text_registration_contact_number_personal">Personal Mobile/ User Name</string>
+    <string name="text_registration_contact_number_official">Official Mobile</string>
+    <string name="text_registration_email">Email Address</string>
+    <string name="text_registration_address">Address</string>
+    <string name="text_registration_password">Password</string>
+    <string name="text_registration_confirm_password">Confirm Password</string>
+    <string name="btn_reg_submit">Submit</string>
+
+    <string name="text_registration_form">Registration Form</string>
+
+</resources>
