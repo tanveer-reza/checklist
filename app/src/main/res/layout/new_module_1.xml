@@ -464,7 +464,60 @@
             android:hint="নাম ইনপুট করুন"
             android:inputType="textCapWords"
             android:textSize="15dp" />
+
     </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="5dp"
+            android:text="১৩. আনন্দ স্কুল পরিদর্শন রেজিস্টার অনুযায়ী সর্বশেষ পরিদর্শনকারী মনিটরিং অফিসারের পরিদর্শনের আইডি :"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="139dp"
+                android:layout_height="40dp"
+                android:hint="আইডি ইনপুট করুন"
+                android:inputType="number"
+                android:maxLength="2"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="5dp"
+            android:text="১৪. পরিদর্শনের দিন উপস্থিত সিএমসি সদস্যের সংখ্যা :"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="139dp"
+                android:layout_height="40dp"
+                android:hint="সংখ্যা ইনপুট করুন"
+                android:inputType="number"
+                android:maxLength="2"
+                android:textSize="15dp" />
+        </LinearLayout>
 
 
 
