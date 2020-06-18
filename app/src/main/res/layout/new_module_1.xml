@@ -519,6 +519,166 @@
                 android:textSize="15dp" />
         </LinearLayout>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="5dp"
+            android:text="১৫. মোবাইল নম্বর:"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textViewLC_module2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="5dp"
+            android:text="মডিউল ২ঃ আনন্দ স্কুলের শ্রেণী কক্ষের তথ্যঃ"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_margin="10dp"
+            android:background="@color/cardview_dark_background" />
+
+
+            <TextView
+                android:id="@+id/textViewLC_RollNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="১৬. নিকটস্থ প্রাথমিক বিদ্যালয় থেকে দূরত্বঃ"
+                android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:hint="কিঃমি উল্লেখ করুন"
+                android:inputType="number"
+                android:maxLength="3"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="    পায়ে হেটে যাতায়াতের সময়ঃ"
+            android:textSize="15sp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:hint="মিনিট উল্লেখ করুন"
+                android:inputType="number"
+                android:maxLength="3"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewLC_bank_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="১৭. নিকটস্থ সোনালি ব্যাংকের শাখা থেকে দূরত্বঃ"
+            android:textSize="15sp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:hint="কিঃমি উল্লেখ করুন"
+                android:inputType="number"
+                android:maxLength="3"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="    পায়ে হেটে যাতায়াতের সময়ঃ"
+            android:textSize="15sp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:hint="মিনিট উল্লেখ করুন"
+                android:inputType="number"
+                android:maxLength="3"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewLC_18.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="১৮.১. আনন্দ স্কুল ঘরটিঃ"
+            android:textSize="15sp" />
+        <LinearLayout
+            android:id="@+id/linearLayoutLC_Ques18.1_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <CheckBox
+                android:id="@+id/checkBoxLC_Ques18.1_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="শিক্ষকের বাড়ি" />
+            <CheckBox
+                android:id="@+id/checkBoxLC_Ques18.1_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="স্থানীয় জনগোষ্ঠীর বাড়ি" />
+            <CheckBox
+                android:id="@+id/checkBoxLC_Ques18.1_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="সিএমসি সভাপতি/সদস্য এর বাড়ি" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:hint="অন্যান্য হলে কারন উল্লেখ করুন"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+
+
+
+
+
 
 
 
