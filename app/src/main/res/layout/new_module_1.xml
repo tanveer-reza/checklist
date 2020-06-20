@@ -648,6 +648,7 @@
             android:id="@+id/linearLayoutLC_Ques18.1_checkbox"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:padding="20sp"
             android:orientation="vertical">
             <CheckBox
                 android:id="@+id/checkBoxLC_Ques18.1_a"
@@ -664,6 +665,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="সিএমসি সভাপতি/সদস্য এর বাড়ি" />
+            <CheckBox
+                android:id="@+id/checkBoxLC_Ques18.1_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="অন্যান্য" />
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -673,6 +679,540 @@
                 android:textSize="15dp" />
 
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewLC_18.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="১৮.২. স্কুল ঘরটির ধরনঃ"
+            android:textSize="15sp" />
+    <LinearLayout
+        android:id="@+id/linearLayoutLC_Ques18.2_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20sp"
+        android:orientation="vertical">
+        <CheckBox
+            android:id="@+id/checkBoxLC_Ques18.2_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="আদর্শ শ্রেণী কক্ষ" />
+        <CheckBox
+            android:id="@+id/checkBoxLC_Ques18.2_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="অন্য কোন স্কুল/ধর্মীয় প্রতিষ্ঠানের ঘর" />
+        <CheckBox
+            android:id="@+id/checkBoxLC_Ques18.2_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ঘূর্ণিঝড়/বন্যা আশ্রয় কেন্দ্র" />
+        <CheckBox
+            android:id="@+id/checkBoxLC_Ques18.2_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="বারান্দা" />
+        <CheckBox
+            android:id="@+id/checkBoxLC_Ques18.2_e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="শোবার ঘর" />
+        <CheckBox
+            android:id="@+id/checkBoxLC_Ques18.2_f"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="গুদাম ঘর" />
+        <CheckBox
+            android:id="@+id/checkBoxLC_Ques18.2_g"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="খোলা জায়গা"  />
+        <CheckBox
+            android:id="@+id/checkBoxLC_Ques18.2_h"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="গোয়াল ঘর" />
+        <CheckBox
+            android:id="@+id/checkBoxLC_Ques18.2_i"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="অন্যান্য" />
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:hint="অন্যান্য হলে কারন উল্লেখ করুন"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewLC_18.3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="১৮.৩. আনন্দ স্কুল ঘরের মাসিক ভাড়াঃ"
+            android:textSize="15sp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:hint="টাকা উল্লেখ করুন"
+                android:inputType="number"
+                android:maxLength="4"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewLC_19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="১৯. শ্রেণী কক্ষের আয়তনঃ"
+            android:textSize="15sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="দৈর্ঘ্য (ফুট)"
+                android:textSize="15dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="প্রস্থ (ফুট)"
+                android:textSize="15dp"
+                android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewLC_20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="২০. শ্রেণী কক্ষের জানালা সংখ্যঃ"
+            android:textSize="15sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:hint="সংখ্যা উল্লেখ করুন"
+                    android:textSize="15dp"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+         </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewLC_21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="২১. আলো বাতাসের পর্যাপ্ততা আছে কি? :"
+            android:textSize="15sp" />
+        <LinearLayout
+            android:id="@+id/linearLayoutLCItem7_0_1tem7_0_21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/spinnerLCItem21"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:clickable="true"
+                android:entries="@array/spinnerLCItem7"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewLC_22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="২২. আর্সেনিকমুক্ত বিশুদ্ধ খাবার পানির বাবস্থা আছে কি? :"
+            android:textSize="15sp" />
+        <LinearLayout
+            android:id="@+id/linearLayoutLCItem7_0_1tem7_0_22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/spinnerLCItem22"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:clickable="true"
+                android:entries="@array/spinnerLCItem7"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewLC_23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="২৩. হ্যাঁ হলে, পানির বাবস্থা কোথায় আছে? :"
+            android:textSize="15sp" />
+        <LinearLayout
+            android:id="@+id/linearLayoutLC_Ques23_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20sp"
+            android:orientation="vertical">
+            <CheckBox
+                android:id="@+id/checkBoxLC_Ques23_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="আনন্দ স্কুল প্রাঙ্গনে" />
+            <CheckBox
+                android:id="@+id/checkBoxLC_Ques23_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="পাঁচ মিনিটের হাটা পথের মধ্যে" />
+            <CheckBox
+                android:id="@+id/checkBoxLC_Ques23_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="পানির বাবস্থা নাই" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewLC_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="২৪. শিক্ষার্থীদের ব্যাবহার উপযোগী স্বাস্থ্য সম্মত পায়খানা আছে কি? :"
+            android:textSize="15sp" />
+        <LinearLayout
+            android:id="@+id/linearLayoutLCItem7_0_1tem7_0_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/spinnerLCItem24"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:clickable="true"
+                android:entries="@array/spinnerLCItem7"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewLC_25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="২৫. শ্রেণী কক্ষে বৈদ্যুতিক সুবিধা আছে কি? :"
+            android:textSize="15sp" />
+        <LinearLayout
+            android:id="@+id/linearLayoutLCItem7_0_1tem7_0_25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/spinnerLCItem25"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:clickable="true"
+                android:entries="@array/spinnerLCItem7"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewLC_26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="২৬. শ্রেণী কক্ষে শিক্ষার্থীদের বসার বাবস্থা কি রকম? :"
+            android:textSize="15sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Spinner
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:clickable="true"
+                android:entries="@array/spinnerLCItem26"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewLC_27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="২৭. শ্রেণী কক্ষের ব্ল্যাকবোর্ড টি ব্যাবহার উপযোগী কি না :"
+            android:textSize="15sp" />
+        <LinearLayout
+            android:id="@+id/linearLayoutLCItem7_0_1tem7_0_27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/spinnerLCItem27"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:clickable="true"
+                android:entries="@array/spinnerLCItem7"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewLC_28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="২৮.  আনন্দ স্কুল প্রাঙ্গন এ জাতীয় পতাকা উত্তোলন করা আছে কি?:"
+            android:textSize="15sp" />
+        <LinearLayout
+            android:id="@+id/linearLayoutLCItem7_0_28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/spinnerLCItem28"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:clickable="true"
+                android:entries="@array/spinnerLCItem7"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewLC_29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="২৯.  আনন্দ স্কুল প্রাঙ্গন এ স্কুলের নাম ও আইডি সম্বলিত সাইনবোর্ড টাঙ্গানো আছে কি?:"
+            android:textSize="15sp" />
+        <LinearLayout
+            android:id="@+id/linearLayoutLCItem7_0_29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+            <Spinner
+                android:id="@+id/spinnerLCItem29"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:clickable="true"
+                android:entries="@array/spinnerLCItem7"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewLC_30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="৩০.  আনন্দ স্কুল প্রাঙ্গন এ স্কুলের অনুদান বিষয়ক তথ্যাদি প্রদর্শন করা আছে কি?:"
+            android:textSize="15sp" />
+        <LinearLayout
+            android:id="@+id/linearLayoutLCItem7_0_30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+            <Spinner
+                android:id="@+id/spinnerLCItem30"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:clickable="true"
+                android:entries="@array/spinnerLCItem7"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewLC_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="৩১.  নিম্নোক্ত রেজিস্টার,নথি ও তথ্যসমুহ শ্রেণী কক্ষে সংরক্ষিত আছে কি?:"
+            android:textSize="15sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_margin="10dp"
+            android:background="@color/cardview_dark_background" />
+        <LinearLayout
+            android:id="@+id/linearLayoutLCItem7_0_31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="20sp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textViewLC_31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="ক. সিএমসি সভার কার্যবিবরণী রেজিস্টার:"
+                android:textSize="15sp" />
+            <Spinner
+                android:id="@+id/spinnerLCItem31_ko"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:clickable="true"
+                android:entries="@array/spinnerLCItem7"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                tools:ignore="RtlSymmetry" />
+            <TextView
+                android:id="@+id/textViewLC_31_kho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="খ. অ্যাকাউন্ট রেজিস্টার:"
+                android:textSize="15sp" />
+            <Spinner
+                android:id="@+id/spinnerLCItem31"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:clickable="true"
+                android:entries="@array/spinnerLCItem7"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                tools:ignore="RtlSymmetry" />
+            <TextView
+                android:id="@+id/textViewLC_31_go"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="গ. স্কুল পরিদর্শন রেজিস্টার:"
+                android:textSize="15sp" />
+            <Spinner
+                android:id="@+id/spinnerLCItem31_go"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:clickable="true"
+                android:entries="@array/spinnerLCItem7"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+
+
+
+
 
 
 

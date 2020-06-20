@@ -62,6 +62,14 @@
         <item>না</item>
     </string-array>
 
+    <string-array name="spinnerLCItem26">
+        <item>--------</item>
+        <item>খোলা মেঝে</item>
+        <item>চটের মাদুর</item>
+        <item>প্লাসটিকের মাদুর</item>
+        <item>বেঞ্চ</item>
+    </string-array>
+
     <string name="text_registration_user_name">User Name</string>
     <string name="text_registration_first_name">First Name</string>
     <string name="text_registration_last_name">Last Name</string>
