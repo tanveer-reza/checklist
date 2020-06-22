@@ -70,6 +70,14 @@
         <item>বেঞ্চ</item>
     </string-array>
 
+    <string-array name="spinnerLCItem_qus_36">
+        <item>--------</item>
+        <item>এসএসসি</item>
+        <item>এইচএসসি</item>
+        <item>গ্র্যাজুয়েট</item>
+        <item>পোস্ট গ্র্যাজুয়েট</item>
+    </string-array>
+
     <string name="text_registration_user_name">User Name</string>
     <string name="text_registration_first_name">First Name</string>
     <string name="text_registration_last_name">Last Name</string>

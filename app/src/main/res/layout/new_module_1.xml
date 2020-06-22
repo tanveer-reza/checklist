@@ -1434,11 +1434,167 @@
                 android:layout_width="360dp"
                 android:layout_height="40dp"
                 android:hint="এখানে শিক্ষক এর নাম উল্লেখ করুন"
-                android:inputType="number"
-                android:maxLength="7"
+                android:inputType="text"
                 android:textSize="15dp" />
 
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewLC_Title_qus_35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="5dp"
+            android:text="৩৫.  শিক্ষক এর জাতীয় পরিচয় পত্র নংঃ"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="360dp"
+                android:layout_height="40dp"
+                android:hint="শিক্ষক এর জাতীয় পরিচয় পত্র নং উল্লেখ করুন"
+                android:inputType="number"
+                android:maxLength="13"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <TextView
+        android:id="@+id/textViewLC_Title_qus_35.1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="8dp"
+        android:paddingBottom="5dp"
+        android:text="৩৫.১  পরিদর্শনকালে প্রকল্প হতে প্রদত্ত শিক্ষক আইডি কার্ড প্রদর্শন করেছেন কি?ঃ"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutLCItem7_0_1tem7_qus_35.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/spinnerLCItem7_35.1"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:clickable="true"
+                android:entries="@array/spinnerLCItem7"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                tools:ignore="RtlSymmetry" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayoutLCItem7_0_1tem7_qus_36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textViewLC_Title_qus_36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="8dp"
+                android:paddingBottom="5dp"
+                android:text="৩৬. শিক্ষক এর শিক্ষাগত যোগ্যতাঃ"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <Spinner
+                android:id="@+id/spinnerLCItem_qus_36"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:clickable="true"
+                android:entries="@array/spinnerLCItem_qus_36"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewLC_Title_qus_36.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="5dp"
+            android:text="৩৬.১  শিক্ষাগত যোগ্যতার মুল সনদ আছে কি না?ঃ"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutLCItem7_0_1tem7_qus_36.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/spinnerLCItem7_36.1"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:clickable="true"
+                android:entries="@array/spinnerLCItem7"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                tools:ignore="RtlSymmetry" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewLC_Title_qus_37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="5dp"
+            android:text="৩৭.  জেন্ডারঃ"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+    <LinearLayout
+        android:id="@+id/linearLayoutLC_Ques37_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20sp"
+        android:orientation="vertical">
+        <CheckBox
+            android:id="@+id/checkBoxLC_Ques37_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="পুরুষ" />
+        <CheckBox
+            android:id="@+id/checkBoxLC_Ques37_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="মহিলা" />
+    </LinearLayout>
 
 
 
