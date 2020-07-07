@@ -56,11 +56,6 @@
         <item>অন্যান্য</item>
     </string-array>
 
-    <string-array name="spinnerLCItem8">
-        <item>-----</item>
-        <item>হ্যাঁ</item>
-        <item>না</item>
-    </string-array>
 
     <string-array name="spinnerLCItem26">
         <item>--------</item>
@@ -77,6 +72,18 @@
         <item>গ্র্যাজুয়েট</item>
         <item>পোস্ট গ্র্যাজুয়েট</item>
     </string-array>
+
+    <string-array name="spinnerLCItem10">
+
+        <item>--------</item>
+         <item>সম্পর্ক নাই</item>
+        <item>পিতা</item>
+        <item>মাতা</item>
+        <item>স্বামী/স্ত্রী</item>
+        <item>অন্যান্য</item>
+    </string-array>
+
+
 
     <string name="text_registration_user_name">User Name</string>
     <string name="text_registration_first_name">First Name</string>
