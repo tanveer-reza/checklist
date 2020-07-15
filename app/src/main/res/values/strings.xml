@@ -83,6 +83,28 @@
         <item>অন্যান্য</item>
     </string-array>
 
+    <string-array name="spinnerLCItem69">
+        <item>---------</item>
+        <item>প্রতিটি বিষয়ে</item>
+        <item>প্রতিদিন</item>
+        <item>মাঝে মাঝে</item>
+        <item>খুবই কম</item>
+    </string-array>
+
+    <string-array name="spinnerLCItem73">
+        <item>----------</item>
+        <item>স্থানীয় সোনালী ব্যাংক হতে সরাসরি</item>
+        <item>বুথ স্থাপনের মাধ্যমে</item>
+        <item>অন্যান্য</item>
+    </string-array>
+
+    <string-array name="spinnerLCItem75.1">
+        <item>-----------</item>
+        <item>সিএমসি কর্তিক ইচ্ছাকৃতভাবে দেওয়া হয়নি</item>
+        <item>সোনালী ব্যাংক হতে টাকা উত্তোলন করা হয়নি</item>
+        <item>অন্যান্য</item>
+    </string-array>
+
 
 
     <string name="text_registration_user_name">User Name</string>
