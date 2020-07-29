@@ -105,6 +105,27 @@
         <item>অন্যান্য</item>
     </string-array>
 
+    <string-array name="spinnerLCItem8">
+        <item>------------</item>
+        <item>সব সময়ে করে</item>
+        <item>মাঝে মাঝে</item>
+        <item>কখনই প্রশ্ন করে না</item>
+    </string-array>
+
+    <string-array name="spinnerLCItem9">
+        <item>------------</item>
+        <item>খুব ভাল</item>
+        <item>ভাল</item>
+        <item>কোন আন্তঃসম্পর্ক নেই</item>
+    </string-array>
+
+    <string-array name="spinnerLCItem11">
+        <item>------------</item>
+        <item>খুব দক্ষ</item>
+        <item>মোটামুটি দক্ষ</item>
+        <item>কোন দক্ষতা নেই</item>
+    </string-array>
+
 
 
     <string name="text_registration_user_name">User Name</string>

@@ -3199,6 +3199,165 @@
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
+                        <TextView
+                            android:id="@+id/textViewLC_Title_qus_79"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="8dp"
+                            android:paddingBottom="5dp"
+                            android:text="৭৯.  সকল শিক্ষার্থীর পাঠ্যপুস্তক আছে কি?"
+                            android:textSize="15sp"
+                            android:textStyle="normal" />
+                        <LinearLayout
+                            android:id="@+id/linearLayoutLCItem7_0_1tem7_0_79"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <Spinner
+                                android:id="@+id/spinnerLCItem79"
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_margin="8dp"
+                                android:background="@android:drawable/btn_dropdown"
+                                android:clickable="true"
+                                android:entries="@array/spinnerLCItem7"
+                                android:focusableInTouchMode="true"
+                                android:gravity="center_horizontal"
+                                android:spinnerMode="dropdown"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textViewLC_Title_qus_80"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="8dp"
+                            android:paddingBottom="5dp"
+                            android:text="৮০.  সকল শিক্ষার্থীর খাতা-কলম/পেন্সিল আছে কি?"
+                            android:textSize="15sp"
+                            android:textStyle="normal" />
+                        <LinearLayout
+                            android:id="@+id/linearLayoutLCItem7_0_1tem7_0_80"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <Spinner
+                                android:id="@+id/spinnerLCItem80"
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_margin="8dp"
+                                android:background="@android:drawable/btn_dropdown"
+                                android:clickable="true"
+                                android:entries="@array/spinnerLCItem7"
+                                android:focusableInTouchMode="true"
+                                android:gravity="center_horizontal"
+                                android:spinnerMode="dropdown"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textViewLC_Title_qus_81"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="8dp"
+                            android:paddingBottom="5dp"
+                            android:text="৮১.  পাঠদানকালে শিক্ষার্থী কত্রিক শিক্ষককে পাঠ্য বিষয়ে প্রশ্ন করা হয় কি?"
+                            android:textSize="15sp"
+                            android:textStyle="normal" />
+                        <LinearLayout
+                            android:id="@+id/linearLayoutLCItem7_0_1tem7_0_81"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <Spinner
+                                android:id="@+id/spinnerLCItem81"
+                                android:layout_width="221dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_margin="8dp"
+                                android:background="@android:drawable/btn_dropdown"
+                                android:clickable="true"
+                                android:entries="@array/spinnerLCItem8"
+                                android:focusableInTouchMode="true"
+                                android:gravity="center_horizontal"
+                                android:spinnerMode="dropdown"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textViewLC_Title_qus_82"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="8dp"
+                            android:paddingBottom="5dp"
+                            android:text="৮২.  শ্রেণী কক্ষে শিক্ষক-শিক্ষার্থীর মধ্যকার আন্তঃসম্পর্ক কি ধরনের?"
+                            android:textSize="15sp"
+                            android:textStyle="normal" />
+                        <LinearLayout
+                            android:id="@+id/linearLayoutLCItem7_0_1tem7_0_82"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <Spinner
+                                android:id="@+id/spinnerLCItem82"
+                                android:layout_width="221dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_margin="8dp"
+                                android:background="@android:drawable/btn_dropdown"
+                                android:clickable="true"
+                                android:entries="@array/spinnerLCItem9"
+                                android:focusableInTouchMode="true"
+                                android:gravity="center_horizontal"
+                                android:spinnerMode="dropdown"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textViewLC_Title_qus_83"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="8dp"
+                            android:paddingBottom="5dp"
+                            android:text="৮৩.  পাঠ্য বিষয়ে শিক্ষকের কি রকম জ্ঞান ও দক্ষতা পরিলক্ষিত হয়েছে?"
+                            android:textSize="15sp"
+                            android:textStyle="normal" />
+                        <LinearLayout
+                            android:id="@+id/linearLayoutLCItem7_0_1tem7_0_83"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <Spinner
+                                android:id="@+id/spinnerLCItem83"
+                                android:layout_width="221dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_margin="8dp"
+                                android:background="@android:drawable/btn_dropdown"
+                                android:clickable="true"
+                                android:entries="@array/spinnerLCItem11"
+                                android:focusableInTouchMode="true"
+                                android:gravity="center_horizontal"
+                                android:spinnerMode="dropdown"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
 
 
 
@@ -3208,7 +3367,9 @@
 
 
 
-            </LinearLayout>
+
+
+                    </LinearLayout>
 
         </ScrollView>
     </RelativeLayout>
