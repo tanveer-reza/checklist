@@ -3359,6 +3359,372 @@
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
+                        <TextView
+                            android:id="@+id/textViewLC_Title_qus_90"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="8dp"
+                            android:paddingBottom="5dp"
+                            android:text="৯০.  সিএমসি শিক্ষা অনুদান ও ভাতা বিতরণ বিষয়ে কোনো এসএমএস পেয়েছে কি?"
+                            android:textSize="15sp"
+                            android:textStyle="normal" />
+                        <LinearLayout
+                            android:id="@+id/linearLayoutLCItem7_0_1tem7_0_90"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <Spinner
+                                android:id="@+id/spinnerLCItem90"
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_margin="8dp"
+                                android:background="@android:drawable/btn_dropdown"
+                                android:clickable="true"
+                                android:entries="@array/spinnerLCItem7"
+                                android:focusableInTouchMode="true"
+                                android:gravity="center_horizontal"
+                                android:spinnerMode="dropdown"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textViewLC_Title_qus_91"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="8dp"
+                            android:paddingBottom="5dp"
+                            android:text="৯১.  সিএমসি শিক্ষা অনুদান ও ভাতা বিতরণ বিষয়ে ROSCU কত্রিক প্রেরিত এসএমএস এর কোন প্রত্যুত্তর দিয়েছে কি?"
+                            android:textSize="15sp"
+                            android:textStyle="normal" />
+                        <LinearLayout
+                            android:id="@+id/linearLayoutLCItem7_0_1tem7_0_91"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <Spinner
+                                android:id="@+id/spinnerLCItem91"
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_margin="8dp"
+                                android:background="@android:drawable/btn_dropdown"
+                                android:clickable="true"
+                                android:entries="@array/spinnerLCItem7"
+                                android:focusableInTouchMode="true"
+                                android:gravity="center_horizontal"
+                                android:spinnerMode="dropdown"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textViewLC_Title_qus_92"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="8dp"
+                            android:paddingBottom="5dp"
+                            android:text="৯২.  সিএমসি শিক্ষককে মনিটরিং করার বিষয়ে কোন এসএমএস পেয়েছে কি?"
+                            android:textSize="15sp"
+                            android:textStyle="normal" />
+                        <LinearLayout
+                            android:id="@+id/linearLayoutLCItem7_0_1tem7_0_92"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <Spinner
+                                android:id="@+id/spinnerLCItem92"
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_margin="8dp"
+                                android:background="@android:drawable/btn_dropdown"
+                                android:clickable="true"
+                                android:entries="@array/spinnerLCItem7"
+                                android:focusableInTouchMode="true"
+                                android:gravity="center_horizontal"
+                                android:spinnerMode="dropdown"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textViewLC_Title_qus_93"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="8dp"
+                            android:paddingBottom="5dp"
+                            android:text="৯৩.  সিএমসি শিক্ষকের উপস্থিতি বিষয়ে ROSCU কত্রিক প্রেরিত এসএমএস এর কোন প্রত্যুত্তর দিয়েছে কি?"
+                            android:textSize="15sp"
+                            android:textStyle="normal" />
+                        <LinearLayout
+                            android:id="@+id/linearLayoutLCItem7_0_1tem7_0_93"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <Spinner
+                                android:id="@+id/spinnerLCItem93"
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_margin="8dp"
+                                android:background="@android:drawable/btn_dropdown"
+                                android:clickable="true"
+                                android:entries="@array/spinnerLCItem7"
+                                android:focusableInTouchMode="true"
+                                android:gravity="center_horizontal"
+                                android:spinnerMode="dropdown"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textViewLC_Title_qus_94"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="8dp"
+                            android:paddingBottom="5dp"
+                            android:text="৯৪.  সিএমসি কত্রিক কোন এসএমএস এর প্রত্যুত্তর না দেওয়া হলে, তার কারন কি?"
+                            android:textSize="15sp"
+                            android:textStyle="normal" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="346dp"
+                                android:layout_height="40dp"
+                                android:hint="কারন উল্লেখ করুন"
+                                android:inputType="textCapWords"
+                                android:textSize="15dp" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textViewLC_Title_qus_95"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="8dp"
+                            android:paddingBottom="5dp"
+                            android:text="৯৫.  এসএমএস মনিটরিং এর বিষয়ে সিএমসি'র মতামতঃ"
+                            android:textSize="15sp"
+                            android:textStyle="normal" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="346dp"
+                                android:layout_height="40dp"
+                                android:hint="মতামত উল্লেখ করুন"
+                                android:inputType="textCapWords"
+                                android:textSize="15dp" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textViewLC_Title_qus_96"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="8dp"
+                            android:paddingBottom="5dp"
+                            android:text="৯৬.  আনন্দ স্কুল বিষয়ে মনিটরিং অফিসারের মতামতঃ"
+                            android:textSize="15sp"
+                            android:textStyle="normal" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="346dp"
+                                android:layout_height="40dp"
+                                android:hint="মতামত উল্লেখ করুন"
+                                android:inputType="textCapWords"
+                                android:textSize="15dp" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textViewLC_Title97"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="8dp"
+                            android:paddingBottom="5dp"
+                            android:text="পিও-সিএম সম্পর্কিত তথ্য : (নতুন আনন্দ স্কুল এর জন্য প্রযোজ্য)"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_margin="10dp"
+                            android:background="@color/cardview_dark_background" />
+
+                        <TextView
+                            android:id="@+id/textViewLC_Title_qus_97-ko"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="8dp"
+                            android:paddingBottom="5dp"
+                            android:text="ক.  পার্টনার অর্গানাইজেশন (পিও)- এর নাম কি?"
+                            android:textSize="15sp"
+                            android:textStyle="normal" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="346dp"
+                                android:layout_height="40dp"
+                                android:hint="নাম উল্লেখ করুন"
+                                android:inputType="textCapWords"
+                                android:textSize="15dp" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textViewLC_Title_qus_97-kha"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="8dp"
+                            android:paddingBottom="5dp"
+                            android:text="খ.  উপজেলা পর্যায়ে পিও এর অফিস আছে কি?"
+                            android:textSize="15sp"
+                            android:textStyle="normal" />
+                        <LinearLayout
+                            android:id="@+id/linearLayoutLCItem7_0_1tem7_0_97-kha"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <Spinner
+                                android:id="@+id/spinnerLCItem97-kha"
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_margin="8dp"
+                                android:background="@android:drawable/btn_dropdown"
+                                android:clickable="true"
+                                android:entries="@array/spinnerLCItem7"
+                                android:focusableInTouchMode="true"
+                                android:gravity="center_horizontal"
+                                android:spinnerMode="dropdown"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textViewLC_Title_qus_97-gow"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="8dp"
+                            android:paddingBottom="5dp"
+                            android:text="গ.  কমিউনিটি মোবিলাইজার (সিএম)-এর নাম কি?"
+                            android:textSize="15sp"
+                            android:textStyle="normal" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="346dp"
+                                android:layout_height="40dp"
+                                android:hint="নাম উল্লেখ করুন"
+                                android:inputType="textCapWords"
+                                android:textSize="15dp" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textViewLC_Title_qus_97-gha"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="8dp"
+                            android:paddingBottom="5dp"
+                            android:text="ঘ.  সিএম আপনার স্কুলটি পরিদর্শন করেছেন কি?"
+                            android:textSize="15sp"
+                            android:textStyle="normal" />
+                        <LinearLayout
+                            android:id="@+id/linearLayoutLCItem7_0_1tem7_0_97-gha"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <Spinner
+                                android:id="@+id/spinnerLCItem97-gha"
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_margin="8dp"
+                                android:background="@android:drawable/btn_dropdown"
+                                android:clickable="true"
+                                android:entries="@array/spinnerLCItem7"
+                                android:focusableInTouchMode="true"
+                                android:gravity="center_horizontal"
+                                android:spinnerMode="dropdown"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textViewLC_Title_qus_97-uma"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="8dp"
+                            android:paddingBottom="5dp"
+                            android:text="ঙ. উত্তর হ্যাঁ হলে, সর্বশেষ কবে পরিদর্শন করেছেন (পরিদর্শন রেজিস্টার মোতাবেক) ?"
+                            android:textSize="15sp"
+                            android:textStyle="normal" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/checkboxLC_Ques97_uma"
+                                android:layout_width="360dp"
+                                android:layout_height="40dp"
+                                android:focusable="false"
+                                android:hint="তারিখ বাছুন"
+                                android:inputType="date"
+                                android:textSize="15dp" />
+                        </LinearLayout>
+
 
 
 

@@ -32,6 +32,7 @@ public class MainTest extends AppCompatActivity {
         final TextInputEditText qus_49=findViewById(R.id.checkboxLC_Ques49);
         final TextInputEditText qus_52=findViewById(R.id.checkboxLC_Ques52);
         final TextInputEditText qus_71=findViewById(R.id.checkboxLC_Ques71);
+        final TextInputEditText qus_97_uma=findViewById(R.id.checkboxLC_Ques97_uma);
 
         // Date Picker
 datePicker(checkboxLC_Ques38);
@@ -39,6 +40,7 @@ datePicker(qus_40);
 datePicker(qus_49);
 datePicker(qus_52);
 datePicker(qus_71);
+datePicker(qus_97_uma);
 
 
 
