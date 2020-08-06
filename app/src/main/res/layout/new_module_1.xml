@@ -195,13 +195,21 @@
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
-
-                        <com.google.android.material.textfield.TextInputEditText
-                            android:layout_width="match_parent"
+                        <LinearLayout
+                            android:id="@+id/textViewLCItem7_0_1"
+                            android:layout_width="274dp"
                             android:layout_height="wrap_content"
-                            android:hint="অন্যান্য হলে কারন উল্লেখ করুন"
-                            android:inputType="textCapWords"
-                            android:textSize="15dp" />
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="অন্যান্য হলে কারন উল্লেখ করুন"
+                                android:inputType="textCapWords"
+                                android:textSize="15dp" />
+                        </LinearLayout>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -3667,7 +3675,7 @@
                         </LinearLayout>
 
                         <TextView
-                            android:id="@+id/textViewLC_Title_qus_97-gha"
+                            android:id="@+id/textViewLC_Title_qus_97_gha"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="3dp"
@@ -3677,14 +3685,14 @@
                             android:textSize="15sp"
                             android:textStyle="normal" />
                         <LinearLayout
-                            android:id="@+id/linearLayoutLCItem7_0_1tem7_0_97-gha"
+                            android:id="@+id/linearLayoutLCItem7_0_1tem7_0_97_gha"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:orientation="vertical">
 
                             <Spinner
-                                android:id="@+id/spinnerLCItem97-gha"
+                                android:id="@+id/spinnerLCItem97_gha"
                                 android:layout_width="110dp"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal"
@@ -3698,16 +3706,18 @@
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
-                        <TextView
-                            android:id="@+id/textViewLC_Title_qus_97-uma"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="3dp"
-                            android:layout_marginTop="8dp"
-                            android:paddingBottom="5dp"
-                            android:text="ঙ. উত্তর হ্যাঁ হলে, সর্বশেষ কবে পরিদর্শন করেছেন (পরিদর্শন রেজিস্টার মোতাবেক) ?"
-                            android:textSize="15sp"
-                            android:textStyle="normal" />
+
+
+                            <TextView
+                                android:id="@+id/textViewLC_Title_qus_97_uma"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="3dp"
+                                android:layout_marginTop="8dp"
+                                android:paddingBottom="5dp"
+                                android:text="ঙ. উত্তর হ্যাঁ হলে, সর্বশেষ কবে পরিদর্শন করেছেন (পরিদর্শন রেজিস্টার মোতাবেক) ?"
+                                android:textSize="15sp"
+                                android:textStyle="normal" />
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
