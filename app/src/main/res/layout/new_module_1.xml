@@ -364,7 +364,7 @@
                             android:layout_marginStart="3dp"
                             android:layout_marginTop="8dp"
                             android:paddingBottom="5dp"
-                            android:text="9. এলসি প্রোফাইলের সাথে কত জন শিক্ষার্থীর মিল আছে? :"
+                            android:text="৯. এলসি প্রোফাইলের সাথে কত জন শিক্ষার্থীর মিল আছে? :"
                             android:textSize="15sp"
                             android:textStyle="normal" />
 
@@ -662,7 +662,7 @@
                                 android:hint="মিনিট উল্লেখ করুন"
                                 android:inputType="number"
                                 android:maxLength="3"
-                                android:textSize="15dp" />
+                                android:textSize="15sp" />
                         </LinearLayout>
 
                         <TextView
@@ -674,37 +674,36 @@
                             android:textSize="15sp" />
 
                         <LinearLayout
-                            android:id="@+id/linearLayoutLC_Ques18.1_checkbox"
+                            android:id="@+id/linearLayoutLCItem_18.1"
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical"
-                            android:padding="20sp">
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
 
-                            <CheckBox
-                                android:id="@+id/checkBoxLC_Ques18.1_a"
+                            <Spinner
+                                android:id="@+id/spinnerLCItem18_1"
+                                android:layout_width="207dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_margin="8dp"
+                                android:background="@android:drawable/btn_dropdown"
+                                android:clickable="true"
+                                android:entries="@array/spinnerLCItem18.1"
+                                android:focusableInTouchMode="true"
+                                android:gravity="center_horizontal"
+                                android:spinnerMode="dropdown"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+
+
+                            <LinearLayout
+                                android:id="@+id/linearLayoutLCItem18_1"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="শিক্ষকের বাড়ি" />
+                                android:layout_gravity="center_horizontal"
+                                android:orientation="vertical">
 
-                            <CheckBox
-                                android:id="@+id/checkBoxLC_Ques18.1_b"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="স্থানীয় জনগোষ্ঠীর বাড়ি" />
-
-                            <CheckBox
-                                android:id="@+id/checkBoxLC_Ques18.1_c"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="সিএমসি সভাপতি/সদস্য এর বাড়ি" />
-
-                            <CheckBox
-                                android:id="@+id/checkBoxLC_Ques18.1_d"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="অন্যান্য" />
-
-                            <com.google.android.material.textfield.TextInputEditText
+                                <com.google.android.material.textfield.TextInputEditText
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:hint="অন্যান্য হলে কারন উল্লেখ করুন"
@@ -722,65 +721,24 @@
                             android:textSize="15sp" />
 
                         <LinearLayout
-                            android:id="@+id/linearLayoutLC_Ques18.2_checkbox"
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical"
-                            android:padding="20sp">
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
 
-                            <CheckBox
-                                android:id="@+id/checkBoxLC_Ques18.2_a"
-                                android:layout_width="match_parent"
+                            <Spinner
+                                android:id="@+id/spinnerLCItem18.2"
+                                android:layout_width="207dp"
                                 android:layout_height="wrap_content"
-                                android:text="আদর্শ শ্রেণী কক্ষ" />
-
-                            <CheckBox
-                                android:id="@+id/checkBoxLC_Ques18.2_b"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="অন্য কোন স্কুল/ধর্মীয় প্রতিষ্ঠানের ঘর" />
-
-                            <CheckBox
-                                android:id="@+id/checkBoxLC_Ques18.2_c"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="ঘূর্ণিঝড়/বন্যা আশ্রয় কেন্দ্র" />
-
-                            <CheckBox
-                                android:id="@+id/checkBoxLC_Ques18.2_d"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="বারান্দা" />
-
-                            <CheckBox
-                                android:id="@+id/checkBoxLC_Ques18.2_e"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="শোবার ঘর" />
-
-                            <CheckBox
-                                android:id="@+id/checkBoxLC_Ques18.2_f"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="গুদাম ঘর" />
-
-                            <CheckBox
-                                android:id="@+id/checkBoxLC_Ques18.2_g"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="খোলা জায়গা" />
-
-                            <CheckBox
-                                android:id="@+id/checkBoxLC_Ques18.2_h"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="গোয়াল ঘর" />
-
-                            <CheckBox
-                                android:id="@+id/checkBoxLC_Ques18.2_i"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="অন্যান্য" />
+                                android:layout_gravity="center_horizontal"
+                                android:layout_margin="8dp"
+                                android:background="@android:drawable/btn_dropdown"
+                                android:clickable="true"
+                                android:entries="@array/spinnerLCItem18.2"
+                                android:focusableInTouchMode="true"
+                                android:gravity="center_horizontal"
+                                android:spinnerMode="dropdown"
+                                tools:ignore="RtlSymmetry" />
 
                             <com.google.android.material.textfield.TextInputEditText
                                 android:layout_width="match_parent"

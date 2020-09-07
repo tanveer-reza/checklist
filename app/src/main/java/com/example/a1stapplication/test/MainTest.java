@@ -20,6 +20,7 @@ import com.google.android.material.textfield.TextInputEditText;
 import java.util.Calendar;
 
 import static com.example.a1stapplication.R.id.spinnerLCItem8;
+import static com.example.a1stapplication.R.id.visible;
 
 public class MainTest extends AppCompatActivity {
 
@@ -53,8 +54,8 @@ public class MainTest extends AppCompatActivity {
         });
 
 
-        Spinner spinner1 = findViewById(R.id.spinnerLCItem7);
-        spinner1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        Spinner spinner3 = findViewById(R.id.spinnerLCItem7);
+        spinner3.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -99,6 +100,25 @@ public class MainTest extends AppCompatActivity {
 
             }
         });
+
+
+        Spinner spinner5 = findViewById(R.id.spinnerLCItem18_1);
+        spinner5.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                if (position==4){
+                    findViewById(R.id.linearLayoutLCItem18_1).setVisibility(view.VISIBLE);
+                } else {
+                    findViewById(R.id.linearLayoutLCItem18_1).setVisibility(view.GONE);
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+
 
         /*findViewById(R.id.spinnerLCItem97_gha).setOnClickListener(new View.OnClickListener() {
             @Override
